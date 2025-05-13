@@ -1,0 +1,50 @@
+/* JS
+
+//Declarar e atribuir valor
+let boasVindas = "Fala, Dev!";
+boasVindas = "Fala, Dev! Beleza?" //Atualizou a variavel boasVindas 
+
+//String
+""
+''
+´´
+
+//Number 
+1
+1.2
+
+//Boolean
+true 
+false
+
+//constante não pode mudar valor igual declaração
+const serHumano = true
+serHumano = false // Erro 
+
+Funções
+Agrupamento de codigo, mini programas dentro do programa maior.
+
+//usando uma funcao 
+alert ('Fala, Dev!')
+
+//criando uma funcao 
+function alert(text) {
+   return text
+}
+
+// EXEMPLO DE criando uma funcao 
+function sayHello(name) {
+   alert("Olá + name")
+}
+//entao se escrever sayHello("Mayk") o programa voltara com Olá Mayk
+
+//Objeto obtem atributos (propriedades) e metodos (funcionalidades)
+
+//Criando um objetp
+const person = {
+    age: 18,
+    drive:function () {}
+}
+
+//Usando o objeto 
+person.drive()
