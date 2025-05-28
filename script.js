@@ -1,4 +1,4 @@
-function toggleMode () {
+function toggleMode() {
   const html = document.documentElement //Aqui a gente pegou o HTML
   html.classList.toggle("light") //Troca das clases
   // if(html.classList.contains('light')){
@@ -11,12 +11,11 @@ function toggleMode () {
   const image = document.querySelector("#profile img") //Pesquisa pelo seletor, e "image" ficou com o #profile img
 
   //substituir a imagem
-  if (html.classList.contains('light')) {
+  if (html.classList.contains("light")) {
     // se tiver light mode, adicionar a imagem light
-    image.setAttribute('src', './assets/sagrado-light.png')     //Para substituir ou add imagem, setatrribute, serve para modificar um atributo em valor string('')
+    image.setAttribute("src", "./assets/vala-light.png") //Para substituir ou add imagem, setatrribute, serve para modificar um atributo em valor string('')
   } else {
     // se tiver sem light mode, manter a imagem normal
-    image.setAttribute('src', './assets/sagrado.png')
+    image.setAttribute("src", "./assets/vala.png")
   }
 }
-
